@@ -18,7 +18,7 @@ export default function Principal({navigation}) {
           <TouchableOpacity onPress={() => {}}>
             <Feather name="shopping-cart" size={30} color="#fff" style={estilo.carrinhoIcon} />
           </TouchableOpacity>
-          {quantidade > 0 &&
+          {
           <View style={estilo.carrinhoQuantidadeArea}>
             <Text style={estilo.carrinhoQuantidade}>0</Text>  
           </View>}
